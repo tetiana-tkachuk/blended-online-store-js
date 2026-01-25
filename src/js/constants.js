@@ -7,3 +7,5 @@ export const API_ENDPOINTS = {
   CATEGORY: '/products/category-list',
   PRODUCTS_BY_CATEGORY: '/products/category/',
 };
+
+export const ITEMS_PER_PAGE = 12;
