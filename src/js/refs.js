@@ -1,6 +1,21 @@
 export default {
-    categoryList: document.querySelector('.categories'),
-    productsList: document.querySelector('.products'),
-    categoryButton: document.querySelector('.categories__btn'),
-    notFound: document.querySelector('.not-found')
- };
+  categoryList: document.querySelector('.categories'),
+  productsList: document.querySelector('.products'),
+  notFound: document.querySelector('.not-found'),
+  searchForm: document.querySelector('.search-form'),
+  searchInput: document.querySelector('.search-form__input'),
+  searchClearBtn: document.querySelector('.search-form__btn-clear'),
+  loadMoreBtn: document.querySelector('.load-more-btn'),
+  modal: document.querySelector('.modal'),
+  modalCloseBtn: document.querySelector('.modal__close-btn'),
+  modalProduct: document.querySelector('.modal-product'),
+  modalWishlistBtn: document.querySelector('.modal-product__btn--wishlist'),
+  modalCartBtn: document.querySelector('.modal-product__btn--cart'),
+  scrollTopBtn: document.querySelector('.scroll-top-btn'),
+  themeToggleBtn: document.querySelector('.theme-toggle-btn'),
+  cartCount: document.querySelector('[data-cart-count]'),
+  wishlistCount: document.querySelector('[data-wishlist-count]'),
+  cartSummaryCount: document.querySelector('[data-count]'),
+  cartSummaryPrice: document.querySelector('[data-price]'),
+  cartSummaryButton: document.querySelector('.cart-summary__btn'),
+};

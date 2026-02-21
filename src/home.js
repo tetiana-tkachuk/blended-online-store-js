@@ -1,7 +1,14 @@
 //Логіка сторінки Home
 
-import { handleInitHome, handleClickByCategory } from './js/handlers';
-import refs from './js/refs';
+import { initHomePage } from './js/handlers';
+import { initModal } from './js/modal';
+import { initScrollTop, initThemeToggle } from './js/helpers';
+import { updateNavCounts } from './js/storage';
 
-document.addEventListener('DOMContentLoaded', handleInitHome);
-refs.categoryList.addEventListener('click', handleClickByCategory);
+document.addEventListener('DOMContentLoaded', () => {
+  initThemeToggle();
+  initScrollTop();
+  initModal();
+  updateNavCounts();
+  initHomePage();
+});
